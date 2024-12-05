@@ -1,0 +1,21 @@
+.homePage {
+    background-image: url(../assets/bgPhoto.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+
+    .hero {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        height: 500px;
+
+        h1 {
+            font-size: 50px;
+            color: #adacac;
+            text-shadow: 0 0 10px #fff;
+        }
+    }
+}
